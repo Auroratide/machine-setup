@@ -1,0 +1,17 @@
+tap "caskroom/cask"
+
+cask "visual-studio-code"
+cask "intellij-idea-ce"
+
+tap "AdoptOpenJDK/openjdk"
+cask "adoptopenjdk11"
+
+cask "docker"
+brew "node"
+
+cask "google-chrome"
+cask "firefox"
+
+cask "unity"
+cask "krita"
+cask "discord"
