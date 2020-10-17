@@ -1,0 +1,5 @@
+#!/bin/bash
+# usage: . auroratide
+
+cd Documents/Projects/auroratide.com
+code .
