@@ -57,6 +57,7 @@ verify_install "ls -1 /Applications" "IntelliJ" "IntelliJ"
 verify_install "ls -1 /Applications" "Chrome" "Chrome"
 verify_install "ls -1 /Applications" "Firefox" "Firefox"
 verify_install "ls -1 /Applications" "Discord" "Discord"
+verify_install "ls -1 /Applications" "Streamlabs" "Streamlabs"
 
 exit $RESULT
 
