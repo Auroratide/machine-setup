@@ -48,6 +48,10 @@ verify_install "java -version" "openjdk" "Java"
 verify_install "node --version" "v" "Node"
 verify_install "npm --version" "." "NPM"
 
+# Useful Utilities
+verify_install "ffmpeg -version" "ffmpeg version" "ffmpeg"
+verify_install "convert --version" "ImageMagick" "ImageMagick"
+
 # Docker is not supported by M1 (yet)
 # verify_install "docker --version" "Docker version" "Docker"
 
