@@ -4,6 +4,7 @@ brew "openjdk"
 brew "node"
 brew "ffmpeg"
 brew "imagemagick"
+brew "librsvg"
 
 cask "visual-studio-code"
 cask "intellij-idea-ce"

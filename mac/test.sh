@@ -51,6 +51,7 @@ verify_install "npm --version" "." "NPM"
 # Useful Utilities
 verify_install "ffmpeg -version" "ffmpeg version" "ffmpeg"
 verify_install "convert --version" "ImageMagick" "ImageMagick"
+verify_install "rsvg-convert --version" "rsvg-convert" "librsvg"
 
 # Docker is not supported by M1 (yet)
 # verify_install "docker --version" "Docker version" "Docker"
