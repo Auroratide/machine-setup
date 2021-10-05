@@ -59,6 +59,7 @@ verify_install "rsvg-convert --version" "rsvg-convert" "librsvg"
 # Applications
 verify_install "code --version" "1" "VS Code"
 verify_install "ls -1 /Applications" "IntelliJ" "IntelliJ"
+verify_install "ls -1 /Applications" "Android Studio" "Android Studio"
 verify_install "ls -1 /Applications" "Chrome" "Chrome"
 verify_install "ls -1 /Applications" "Firefox" "Firefox"
 verify_install "ls -1 /Applications" "Discord" "Discord"
