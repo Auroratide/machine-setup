@@ -9,6 +9,7 @@ brew "librsvg"
 cask "visual-studio-code"
 cask "intellij-idea-ce"
 cask "android-studio"
+cask "insomnia"
 
 cask "google-chrome"
 cask "firefox"
