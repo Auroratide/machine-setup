@@ -10,6 +10,7 @@ cask "visual-studio-code"
 cask "intellij-idea-ce"
 cask "android-studio"
 cask "insomnia"
+cask "dbeaver-community"
 cask "krita"
 
 cask "google-chrome"
