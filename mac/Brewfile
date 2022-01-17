@@ -10,6 +10,7 @@ cask "visual-studio-code"
 cask "intellij-idea-ce"
 cask "android-studio"
 cask "insomnia"
+cask "krita"
 
 cask "google-chrome"
 cask "firefox"
