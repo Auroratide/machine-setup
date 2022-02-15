@@ -12,6 +12,7 @@ cask "android-studio"
 cask "insomnia"
 cask "dbeaver-community"
 cask "krita"
+cask "docker"
 
 cask "google-chrome"
 cask "firefox"
