@@ -2,6 +2,7 @@ tap "homebrew/cask"
 
 brew "openjdk"
 brew "node"
+brew "deno"
 brew "ffmpeg"
 brew "imagemagick"
 brew "librsvg"

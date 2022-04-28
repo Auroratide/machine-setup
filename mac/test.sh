@@ -46,6 +46,7 @@ verify_install "brew --version" "Homebrew" "Homebrew"
 verify_install "git --version" "git version" "Git"
 verify_install "java -version" "openjdk" "Java"
 verify_install "node --version" "v" "Node"
+verify_install "deno --version" "deno 1" "Deno"
 verify_install "npm --version" "." "NPM"
 verify_install "docker --version" "version" "Docker"
 
