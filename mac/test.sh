@@ -66,6 +66,7 @@ verify_install "ls -1 /Applications" "Insomnia" "Insomnia"
 verify_install "ls -1 /Applications" "Chrome" "Chrome"
 verify_install "ls -1 /Applications" "Firefox" "Firefox"
 verify_install "ls -1 /Applications" "Discord" "Discord"
+verify_install "ls -1 /Applications" "Obsidian" "Obsidian"
 verify_install "ls -1 /Applications" "Streamlabs" "Streamlabs"
 
 exit $RESULT
