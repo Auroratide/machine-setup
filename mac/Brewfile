@@ -6,6 +6,7 @@ brew "deno"
 brew "ffmpeg"
 brew "imagemagick"
 brew "librsvg"
+brew "jq"
 
 cask "visual-studio-code"
 cask "intellij-idea-ce"

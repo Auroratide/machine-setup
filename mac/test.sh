@@ -49,6 +49,7 @@ verify_install "node --version" "v" "Node"
 verify_install "deno --version" "deno 1" "Deno"
 verify_install "npm --version" "." "NPM"
 verify_install "docker --version" "version" "Docker"
+verify_install "jq --version" "jq-" "jq"
 
 # Useful Utilities
 verify_install "ffmpeg -version" "ffmpeg version" "ffmpeg"
