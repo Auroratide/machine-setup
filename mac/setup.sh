@@ -13,6 +13,10 @@ fi
 
 brew bundle
 
+# More node stuff
+npm install -g pnpm
+pnpm install -g @devcontainers/cli
+
 # Git
 ./git-aliases.sh
 

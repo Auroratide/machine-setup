@@ -44,20 +44,20 @@ verify_install "brew --version" "Homebrew" "Homebrew"
 
 # Coding Necessities
 verify_install "git --version" "git version" "Git"
-verify_install "java -version" "openjdk" "Java"
+verify_install "java -version" "java" "Java"
 verify_install "node --version" "v" "Node"
 verify_install "deno --version" "deno 1" "Deno"
 verify_install "npm --version" "." "NPM"
 verify_install "docker --version" "version" "Docker"
 verify_install "jq --version" "jq-" "jq"
+verify_install "pnpm --version" "." "pnpm"
+verify_install "devcontainer --version" "." "Dev Containers"
 
 # Useful Utilities
 verify_install "ffmpeg -version" "ffmpeg version" "ffmpeg"
 verify_install "convert --version" "ImageMagick" "ImageMagick"
 verify_install "rsvg-convert --version" "rsvg-convert" "librsvg"
-
-# Docker is not supported by M1 (yet)
-# verify_install "docker --version" "Docker version" "Docker"
+verify_install "docker --version" "Docker version" "Docker"
 
 # Applications
 verify_install "code --version" "1" "VS Code"
