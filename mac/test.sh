@@ -52,6 +52,7 @@ verify_install "docker --version" "version" "Docker"
 verify_install "jq --version" "jq-" "jq"
 verify_install "pnpm --version" "." "pnpm"
 verify_install "devcontainer --version" "." "Dev Containers"
+verify_install "qrencode --version" "qrencode version" "QR Encode"
 
 # Useful Utilities
 verify_install "ffmpeg -version" "ffmpeg version" "ffmpeg"
