@@ -23,4 +23,4 @@ cask "firefox"
 cask "discord"
 cask "obsidian"
 
-cask 'streamlabs-obs'
+cask 'obs'
