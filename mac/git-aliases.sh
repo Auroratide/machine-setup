@@ -8,3 +8,5 @@ git config --global alias.ll 'log --oneline'
 git config --global alias.co 'checkout'
 git config --global alias.ap 'add -p'
 git config --global alias.amend '--amend --no-edit'
+
+git config --global push.autoSetupRemote true

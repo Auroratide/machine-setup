@@ -17,6 +17,9 @@ brew bundle
 npm install -g pnpm
 pnpm install -g @devcontainers/cli
 
+# Deno
+curl -fsSL https://deno.land/x/install/install.sh | sh
+
 # Git
 ./git-aliases.sh
 
