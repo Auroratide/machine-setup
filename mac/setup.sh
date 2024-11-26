@@ -16,6 +16,9 @@ brew bundle
 # More node stuff
 npm install -g pnpm
 pnpm install -g @devcontainers/cli
+pnpm install -g serve
+pnpm install -g svgo
+pnpm install -g ts-node
 
 # Deno
 curl -fsSL https://deno.land/x/install/install.sh | sh
